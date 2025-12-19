@@ -7,14 +7,19 @@ import fontforge
 font_dir = "."  # 可根据需要修改为实际字体所在目录
 
 # 名称构造变量
-mainFontPrefix = "JetBrainsMonoNerdFontMono-"
+#mainFontPrefix = "JetBrainsMonoNerdFontMono-"
+mainFontPrefix = "MapleMonoNormal-NF-"
 auxFontPrefix = "LXGWWenKaiMono-"
-outputFontPrefix = "LXWenKaiJetBrMonoNF-"
-postscriptNamePrefix = "LXWenKaiJetBrMonoNF-"
+#outputFontPrefix = "LXWenKaiJetBrMonoNF-"
+outputFontPrefix = "LXWenKaiMapleMonoNF-"
+#postscriptNamePrefix = "LXWenKaiJetBrMonoNF-"
+postscriptNamePrefix = "LXWenKaiMapleMonoNF-"
 enName1 = "LXWenKai"
-enName2 = "JetBr Nerd Mono"
+#enName2 = "JetBr Nerd Mono"
+enName2 = "Maple Nerd Mono"
 chsName1 = "霞鹜文楷"
-chsName2 = "JetBrains 等宽"
+#chsName2 = "JetBrains 等宽"
+chsName2 = "Maple 等宽"
 
 
 def merge_fonts(variant):
